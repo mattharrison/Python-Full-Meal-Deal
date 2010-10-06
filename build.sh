@@ -11,3 +11,10 @@ PYTHONPATH=${ODP} rst2odp.py --traceback -r 3 --mono-font "Envy Code R" --templa
 
 # build handout
 rst2odt.py -g --add-syntax-highlighting --stylesheet=templates/3coltemp.odt handout.rst FullMealHandout.odt 
+
+for file in eat/*.py
+do
+  file=$(basename ${file})
+  echo ${file}
+  python ../MealMaker/mealmakerlib/__init__.py eat/${file} meals/${file}
+done
