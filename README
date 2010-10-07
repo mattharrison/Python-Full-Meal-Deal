@@ -8,8 +8,18 @@ Includes:
 * Slides PythonFullMealSlides.pdf (fullmeal.rst is source)
 * Handout FullMealHandout.pdf (handout.rst is source)
 * Labs in ``meals/`` directory are a bunch of hands ons 
-  assignments for learning concepts.  They are meant to 
-  be used in the order listed:
+  assignments for learning concepts.  
+
+Labs
+-----
+
+Normally there is some text described a problem, below
+it is a line like "# ============================="
+You should implement the described solution directly
+after than line (before the tests that follow).
+
+They are meant to 
+be used in the order listed:
 
   * variables.py
   * strings.py
