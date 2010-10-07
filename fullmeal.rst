@@ -260,6 +260,17 @@ Assignment
   ``strings.py``
 
 
+-----------------------
+
+.. class:: center huge
+
+  Comments
+
+comments
+---------
+
+Comments follow a ``#``
+
 ---------------------
 
 .. class:: center huge
@@ -649,6 +660,21 @@ things:
   
     for key, value in my_dict.items():
       # process items
+
+``pass``
+---------
+
+Take no action
+
+.. code-block:: python
+
+  for i in range(10):
+      # do nothing 10 times
+      pass
+
+
+
+
 
   
 Assignment
@@ -1746,7 +1772,7 @@ Assignment
 
 .. class:: center huge
 
-  ``closures.py``
+  ``decorators.py``
 
 ---------------------
 
