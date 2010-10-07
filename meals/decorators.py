@@ -14,14 +14,14 @@ class TestDecorators(unittest.TestCase):
         
         @noisy
         def nothing():
-            pass
+            print 'middle'
 
         old_stdout = sys.stdout
         sys.stdout = StringIO.StringIO()
         nothing()
         captured = sys.stdout
         sys.stdout = old_stdout
-        self.assertEquals(captured.getvalue(), 'before\nafter\n')
+        self.assertEquals(captured.getvalue(), 'before\nmiddle\nafter\n')
         self.assert_(isinstance(noisy, types.FunctionType))
         self.assert_(nothing.func_closure is not None)
 
