@@ -1,1 +1,25 @@
-Slides, handout and assignments for learning Python from 0 to Generators.
+Python Full Meal Deal
+======================
+
+Content for a whirlwind tour of Python constructs and syntax.
+
+Includes:
+
+* Slides PythonFullMealSlides.pdf (fullmeal.rst is source)
+* Handout FullMealHandout.pdf (handout.rst is source)
+* Labs in ``meals/`` directory are a bunch of hands ons 
+  assignments for learning concepts.  They are meant to 
+  be used in the order listed:
+
+  * variables.py
+  * strings.py
+  * lists.py
+  * dictionaries.py
+  * functions.py
+  * loops.py
+  * classes.py
+  * functional.py
+  * closures.py
+  * decorators.py
+
+Send feedback to matthewharrison at gmail.
